@@ -22,7 +22,9 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 #If you would like to use Docker as a non-root user, 
 #you should now consider adding your user to the “docker” group with something like:
 sudo usermod -aG docker $USER
-#Remember to log out and back in for this to take effect!
+#~~~~~Remember to log out and back in for this to take effect!
+#For no log out:
+newgrp docker
 ###
 
 ### Install Docker Compose
